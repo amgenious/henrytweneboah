@@ -20,6 +20,10 @@ import {
     nubsuenr,
     urc,
     urc_learning_hub,
+    solartaxi,
+    angular,
+    bootstrap,
+    nextjs
   } from "../assets";
   
   export const navLinks = [
@@ -105,6 +109,18 @@ import {
       name: "figma",
       icon: figma,
     },
+    {
+      name: "Angular",
+      icon: angular,
+    },
+    {
+      name: "Bootstrap",
+      icon: bootstrap,
+    },
+    {
+      name: "Next",
+      icon: nextjs,
+    },
     // {
     //   name: "docker",
     //   icon: docker,
@@ -113,7 +129,20 @@ import {
   
   const experiences = [
     {
-      title: "Frontend Developer (Intern)",
+      title: "Software Developer ",
+      company_name: "Solar Taxi",
+      icon: solartaxi,
+      iconBg: "#ffff",
+      date: "October 2023 - Present",
+      points: [
+        "Developing and maintaining web applications using Angular.js and Bootstrap.",
+        "Worked in conjunction with diverse teams, encompassing designers, product managers, and backend developers, to collect specifications and guarantee the successful launch of their application.",
+        "Executed UI/UX designs in order to craft aesthetically pleasing and intuitive user interfaces.",
+        "Engaged in code evaluations and offered valuable input to fellow developers during the review process.",
+      ],
+    },
+    {
+      title: "Frontend Developer",
       company_name: "Bismuth",
       icon: bismuth,
       iconBg: "#ffff",
@@ -135,7 +164,6 @@ import {
         "Developedand maintained web applications using Next.ts, Chakra UI and other related technologies.",
         "Collaborated with cross-functional teams including designers, product managers, and other developers to create high-quality products.",
         "Implemented responsive design and ensured cross-browser compatibility using chrome dev tools.",
-        "Participated in code reviews and providing constructive feedback to other developers.",
       ],
     },
     {

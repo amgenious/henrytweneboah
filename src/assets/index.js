@@ -20,10 +20,14 @@ import redux from "./tech/redux.png";
 import tailwind from "./tech/tailwind.png";
 import typescript from "./tech/typescript.png";
 import threejs from "./tech/threejs.svg";
+import angular from "./tech/angualar.png";
+import bootstrap from "./tech/bootstrap.png";
+import nextjs from "./tech/next.png";
 
 import ecg from "./company/ecg.jpg";
 import bismuth from "./company/Bismuth.jpg";
 import techathon from "./company/techathon.jpg";
+import solartaxi from "./company/solartaxi.png"
 
 
 import nubsuenr from "./nubs_uenr.png";
@@ -57,5 +61,9 @@ export {
   urc_learning_hub,
   ecg,
   bismuth,
-  techathon
+  techathon,
+  solartaxi,
+  angular,
+  bootstrap,
+  nextjs
 };
