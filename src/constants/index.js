@@ -23,7 +23,10 @@ import {
     solartaxi,
     angular,
     bootstrap,
-    nextjs
+    nextjs,
+    passenger,
+    flutter,
+    firebase
   } from "../assets";
   
   export const navLinks = [
@@ -61,6 +64,14 @@ import {
   ];
   
   const technologies = [
+    {
+      name: "Flutter",
+      icon: flutter,
+    },
+    {
+      name: "Firebase",
+      icon: firebase,
+    },
     {
       name: "HTML 5",
       icon: html,
@@ -208,6 +219,60 @@ import {
   ];
   
   const projects = [
+    {
+      name: "Solar Taxi Passenger App",
+      web_link:"",
+      description:
+        "This is an android and ios app built using flutter for passengers to book their seats on their buses and also pay their fares through the app. This app is currently in development",
+      tags: [
+        {
+          name: "flutter",
+          color: "blue-text-gradient",
+        },
+        {
+          name: "firebase",
+          color: "green-text-gradient",
+        },
+      ],
+      image: passenger,
+      source_code_link: "https://github.com/",
+    },
+    {
+      name: "Ecommerce App",
+      web_link:"",
+      description:
+        "This is a prototype of an ecommerce app built using flutter",
+      tags: [
+        {
+          name: "flutter",
+          color: "blue-text-gradient",
+        },
+        {
+          name: "Nodejs",
+          color: "green-text-gradient",
+        },
+      ],
+      image: passenger,
+      source_code_link: "https://github.com/",
+    },
+    {
+      name: "Ecommerce App 2",
+      web_link:"",
+      description:
+        "This is a prototype of an ecommerce app built using flutter with light and darkmode feature",
+      tags: [
+        {
+          name: "flutter",
+          color: "blue-text-gradient",
+        },
+        {
+          name: "Nodejs",
+          color: "green-text-gradient",
+        },
+      ],
+      image: passenger,
+      source_code_link: "https://github.com/",
+    },
     {
       name: "Nubs Uenr",
       web_link:"https://nubs-uenr.com",

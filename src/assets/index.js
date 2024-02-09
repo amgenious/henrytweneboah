@@ -23,11 +23,16 @@ import threejs from "./tech/threejs.svg";
 import angular from "./tech/angualar.png";
 import bootstrap from "./tech/bootstrap.png";
 import nextjs from "./tech/next.png";
+import flutter from "./tech/flutter.jpg";
+import firebase from "./tech/firebase.png";
 
 import ecg from "./company/ecg.jpg";
 import bismuth from "./company/Bismuth.jpg";
 import techathon from "./company/techathon.jpg";
 import solartaxi from "./company/solartaxi.png"
+import passenger from "./passenger_app.png"
+import ecommerce from "./ecommerce.png"
+import ecommerce1 from "./ecommerce2.png"
 
 
 import nubsuenr from "./nubs_uenr.png";
@@ -35,6 +40,11 @@ import urc from "./urc.png";
 import urc_learning_hub from "./urc_learning_hub.png";
 
 export {
+  flutter,
+  firebase,
+  passenger,
+  ecommerce,
+  ecommerce1,
   logo,
   backend,
   creator,
