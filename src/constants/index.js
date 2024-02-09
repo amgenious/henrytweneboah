@@ -26,7 +26,9 @@ import {
     nextjs,
     passenger,
     flutter,
-    firebase
+    firebase,
+    ecommerce,
+    ecommerce1
   } from "../assets";
   
   export const navLinks = [
@@ -146,10 +148,10 @@ import {
       iconBg: "#ffff",
       date: "October 2023 - Present",
       points: [
-        "Developing and maintaining web applications using Angular.js and Bootstrap.",
-        "Worked in conjunction with diverse teams, encompassing designers, product managers, and backend developers, to collect specifications and guarantee the successful launch of their application.",
-        "Executed UI/UX designs in order to craft aesthetically pleasing and intuitive user interfaces.",
-        "Engaged in code evaluations and offered valuable input to fellow developers during the review process.",
+        "Responsible for developing and maintaining company's web applications and mobile apps using Angular.js and Flutter.",
+        "Works in conjunction with diverse teams, encompassing designers, product managers, and backend developers, to collect specifications and guarantee the successful launch of their application.",
+        "Executes UI/UX designs in order to craft aesthetically pleasing and intuitive user interfaces.",
+        "Engages in code evaluations and offered valuable input to fellow developers during the review process.",
       ],
     },
     {
@@ -172,7 +174,7 @@ import {
       iconBg: "#E6DEDD",
       date: "October 2022 - December 2022",
       points: [
-        "Developedand maintained web applications using Next.ts, Chakra UI and other related technologies.",
+        "Developed and maintained web applications using Next.ts, Chakra UI and other related technologies.",
         "Collaborated with cross-functional teams including designers, product managers, and other developers to create high-quality products.",
         "Implemented responsive design and ensured cross-browser compatibility using chrome dev tools.",
       ],
@@ -252,7 +254,7 @@ import {
           color: "green-text-gradient",
         },
       ],
-      image: passenger,
+      image: ecommerce,
       source_code_link: "https://github.com/",
     },
     {
@@ -270,7 +272,7 @@ import {
           color: "green-text-gradient",
         },
       ],
-      image: passenger,
+      image: ecommerce1,
       source_code_link: "https://github.com/",
     },
     {
