@@ -277,7 +277,7 @@ import {
     },
     {
       name: "Nubs Uenr",
-      web_link:"https://nubs-uenr.com",
+      web_link:"https://nubs-uenr.vercel.app",
       description:
         "Web application that enables users to know more about nubs uenr, it vision and missions. Users can get access to books on their e-library platform. Users can get access to previous biblestudies materials and sermons preached on Sundays",
       tags: [
