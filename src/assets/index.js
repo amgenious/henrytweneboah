@@ -33,6 +33,7 @@ import solartaxi from "./company/solartaxi.png"
 import passenger from "./passenger_app.png"
 import ecommerce from "./ecommerce.png"
 import ecommerce1 from "./ecommerce2.png"
+import maket from './maket.png'
 
 
 import nubsuenr from "./nubs_uenr.png";
@@ -41,6 +42,7 @@ import urc_learning_hub from "./urc_learning_hub.png";
 
 export {
   flutter,
+  maket,
   firebase,
   passenger,
   ecommerce,

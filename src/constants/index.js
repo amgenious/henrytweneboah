@@ -222,6 +222,24 @@ import {
   
   const projects = [
     {
+      name: "Ecommerce Website",
+      web_link:"https://maket-official.vercel.app",
+      description:
+        "This is a prototype of an ecommerce website",
+      tags: [
+        {
+          name: "next",
+          color: "blue-text-gradient",
+        },
+        {
+          name: "firebase",
+          color: "green-text-gradient",
+        },
+      ],
+      image: passenger,
+      source_code_link: "https://github.com/",
+    },
+    {
       name: "Solar Taxi Passenger App",
       web_link:"",
       description:
@@ -277,7 +295,7 @@ import {
     },
     {
       name: "Nubs Uenr",
-      web_link:"https://nubs-uenr.vercel.app",
+      web_link:"https://nubsuenr.vercel.app",
       description:
         "Web application that enables users to know more about nubs uenr, it vision and missions. Users can get access to books on their e-library platform. Users can get access to previous biblestudies materials and sermons preached on Sundays",
       tags: [
@@ -299,21 +317,13 @@ import {
     },
     {
       name: "Uenr Robotics Club (urc)",
-      web_link:"https://urc.onrender.com",
+      web_link:"https://urc-eight.vercel.app",
       description:
         "Web application that allows users to know more about urc; its members, executives and patron. Users can get access to completed projects on the projects page",
       tags: [
         {
-          name: "react",
+          name: "next js",
           color: "blue-text-gradient",
-        },
-        {
-          name: "mongodb",
-          color: "green-text-gradient",
-        },
-        {
-          name: "nodejs",
-          color: "orange-text-gradient",
         },
       ],
       image: urc,
