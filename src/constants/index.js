@@ -28,7 +28,10 @@ import {
     flutter,
     firebase,
     ecommerce,
-    ecommerce1
+    ecommerce1,
+    ecommerce2,
+    todo,
+    chare
   } from "../assets";
   
   export const navLinks = [
@@ -161,7 +164,7 @@ import {
       iconBg: "#ffff",
       date: "September 2022 - January 2023",
       points: [
-        "Developing and maintaining web applications using React.js and other related technologies.",
+        "Developed and maintained web applications using React.js and other related technologies.",
         "Collaborated with cross-functional teams including designers, product managers, and other developers to create high-quality products.",
         "Implemented responsive design and ensured cross-browser compatibility using chrome dev tools.",
         "Participated in code reviews and providing constructive feedback to other developers.",
@@ -222,25 +225,51 @@ import {
   
   const projects = [
     {
-      name: "Ecommerce Website",
-      web_link:"https://maket-official.vercel.app",
+      name: "Todo App",
+      web_link:"https://drive.google.com/file/d/1WmTL3JtjQVwTnnxhYP01ojEzViNQbqnm/view?usp=sharing",
       description:
-        "This is a prototype of an ecommerce website",
+        "This is todo app that allows you to add task, check them when complete and delete them when done with the task",
       tags: [
         {
-          name: "next",
+          name: "flutter",
           color: "blue-text-gradient",
         },
         {
-          name: "firebase",
+          name: "hive",
           color: "green-text-gradient",
         },
+        {
+          name: "mobile-app",
+          color: "orange-text-gradient",
+        },
       ],
-      image: passenger,
+      image: todo,
       source_code_link: "https://github.com/",
     },
     {
-      name: "Solar Taxi Passenger App",
+      name: "Ecommerce App",
+      web_link:"https://drive.google.com/file/d/1wcmWYnPvkyVX63aJlI9m6dQNjByyWvr5/view?usp=sharing",
+      description:
+        "This is a prototype of an ecommerce website. it was inspired by nike designs",
+      tags: [
+        {
+          name: "flutter",
+          color: "blue-text-gradient",
+        },
+        {
+          name: "provider",
+          color: "green-text-gradient",
+        },
+        {
+          name: "mobile-app",
+          color: "orange-text-gradient",
+        },
+      ],
+      image: ecommerce2,
+      source_code_link: "https://github.com/",
+    },
+    {
+      name: "Solar Taxi Passenger App*",
       web_link:"",
       description:
         "This is an android and ios app built using flutter for passengers to book their seats on their buses and also pay their fares through the app. This app is currently in development",
@@ -253,12 +282,16 @@ import {
           name: "firebase",
           color: "green-text-gradient",
         },
+        {
+          name: "mobile-app",
+          color: "orange-text-gradient",
+        },
       ],
       image: passenger,
       source_code_link: "https://github.com/",
     },
     {
-      name: "Ecommerce App",
+      name: "Ecommerce App 1*",
       web_link:"",
       description:
         "This is a prototype of an ecommerce app built using flutter",
@@ -271,12 +304,16 @@ import {
           name: "Nodejs",
           color: "green-text-gradient",
         },
+        {
+          name: "mobile-app",
+          color: "orange-text-gradient",
+        },
       ],
       image: ecommerce,
       source_code_link: "https://github.com/",
     },
     {
-      name: "Ecommerce App 2",
+      name: "Ecommerce App 2*",
       web_link:"",
       description:
         "This is a prototype of an ecommerce app built using flutter with light and darkmode feature",
@@ -288,6 +325,10 @@ import {
         {
           name: "Nodejs",
           color: "green-text-gradient",
+        },
+        {
+          name: "mobile-app",
+          color: "orange-text-gradient",
         },
       ],
       image: ecommerce1,
@@ -311,8 +352,33 @@ import {
           name: "nodejs",
           color: "orange-text-gradient",
         },
+        {
+          name: "website",
+          color: "pink-text-gradient",
+        },
       ],
       image: nubsuenr,
+      source_code_link: "https://github.com/",
+    },
+    {
+      name: "Chare",
+      web_link:"https://charehome.vercel.app",
+      description:" This is website that allows users to store data on the web for them. It also available for all platforms",
+      tags: [
+        {
+          name: "nextjs",
+          color: "blue-text-gradient",
+        },
+        {
+          name: "firebase",
+          color: "green-text-gradient",
+        },
+        {
+          name: "website",
+          color: "pink-text-gradient",
+        },
+      ],
+      image: chare,
       source_code_link: "https://github.com/",
     },
     {
@@ -324,6 +390,10 @@ import {
         {
           name: "next js",
           color: "blue-text-gradient",
+        },
+        {
+          name: "website",
+          color: "pink-text-gradient",
         },
       ],
       image: urc,
@@ -350,7 +420,11 @@ import {
         {
           name:"nodejs",
           color:"orange-text-gradient"
-        }
+        },
+        {
+          name: "website",
+          color: "pink-text-gradient",
+        },
       ],
       image: urc_learning_hub,
       source_code_link: "https://github.com/",

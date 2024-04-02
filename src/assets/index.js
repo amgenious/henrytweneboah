@@ -32,15 +32,20 @@ import techathon from "./company/techathon.jpg";
 import solartaxi from "./company/solartaxi.png"
 import passenger from "./passenger_app.png"
 import ecommerce from "./ecommerce.png"
-import ecommerce1 from "./ecommerce2.png"
+import ecommerce1 from "./ecommerce1.png"
+import ecommerce2 from './ecommerce2.png'
+import todo from "./todoapp.png"
 import maket from './maket.png'
-
+import chare from "./chare.png"
 
 import nubsuenr from "./nubs_uenr.png";
 import urc from "./urc.png";
 import urc_learning_hub from "./urc_learning_hub.png";
 
 export {
+  chare,
+  ecommerce2,
+  todo,
   flutter,
   maket,
   firebase,
